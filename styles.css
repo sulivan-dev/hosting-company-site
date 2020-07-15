@@ -1,4 +1,82 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins';
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+header {
+  background-image: url('images/ondas.png'), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 850px;
+}
+
+.menu {
+  background: #fff;
+  padding: 9px 20px;
+}
+
+.menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .main-container {
+  display: flex;
+  justify-content: center;
+  margin: 9vh 0;
+}
+
+header .title, header .image {
+  width: 40%;
+}
+
+header h1 {
+  font-family: 'Rubik';
+  font-size: 52px;
+  color: #fff;
+  text-shadow: 1px 2px 50px #000;
+}
+
+header p {
+  color: #000;
+  line-height: 30px;
+}
+
+header img {
+  width: 100%;
+}
+
+.button {
+  background: #253547;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  display: inline-block;
 }
