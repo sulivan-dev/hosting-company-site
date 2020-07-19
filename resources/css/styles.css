@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-image: url('images/ondas.png'), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-image: url('/resources/img/ondas.png'), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
   background-repeat: no-repeat;
   background-position: bottom center;
   height: 850px;
@@ -55,6 +55,7 @@ header .title, header .image {
 
 header h1 {
   font-family: 'Rubik';
+  font-weight: 500;
   font-size: 52px;
   color: #fff;
   text-shadow: 1px 2px 50px #000;
