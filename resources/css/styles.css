@@ -10,6 +10,8 @@ body {
   margin: auto;
 }
 
+/* Header */
+
 header {
   background-image: url('/resources/img/ondas.png'), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
   background-repeat: no-repeat;
@@ -80,4 +82,107 @@ header img {
   box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
   margin-top: 20px;
   display: inline-block;
+}
+
+/* Main */
+
+.domains {
+  display: flex;
+}
+
+.domains li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+span.point {
+  color: #1776FF;
+  font-size: 24px;
+}
+
+span.domain {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span.year {
+  color: #999;
+  font-size: 14px;
+}
+
+/* Section services */
+
+#services {
+  padding-top: 120px;
+}
+
+#services .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#services .headline {
+  width: 49%;
+}
+
+#services .service {
+  width: 25%;
+  background-color: #fff;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  padding: 20px 30px;
+}
+
+#services h2 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #FF8F00;
+  letter-spacing: 1px;
+}
+
+#services h3 {
+  font-weight: bold;
+  font-size: 38px;
+}
+
+#services .button {
+  background: #2970fa;
+  padding: 15px 38px;
+  letter-spacing: 1px;
+}
+
+.service h4 {
+  font-size: 23px;
+  font-weight: normal;
+  font-family: 'Rubik';
+}
+
+.service p {
+  color: #787878;
+  font-style: 15px;
+  line-height: 32px;
+}
+
+.service a {
+  color: #2370fa;
+  text-decoration: none;
+  font-family: 'Rubik';
+  letter-spacing: 1px;
+  font-style: 13px;
+}
+
+.container-services {
+  margin-top: 60px;
+}
+
+.container-services #two {
+  position: relative;
+  top: -250px;
+}
+
+#services #one {
+  margin-left: 152px;
 }
