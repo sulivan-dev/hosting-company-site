@@ -111,7 +111,7 @@ span.year {
   font-size: 14px;
 }
 
-/* Section services */
+/* Services Section */
 
 #services {
   padding-top: 120px;
@@ -187,6 +187,118 @@ span.year {
   margin-left: 152px;
 }
 
-/* Section Pricing */
+/* Pricing Section */
 
+#pricing h2, #pricing h3 {
+  text-align: center;
+  margin: 0;
+}
 
+#pricing h3 {
+  font-weight: bold;
+}
+
+.container-pricing {
+  display: flex;
+  justify-content: space-around;
+}
+
+#pricing .table {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px 59px;
+}
+
+#pricing ul {
+  padding: 0px;
+}
+
+#pricing .table li:nth-child(1) {
+  font-family: 'Rubik';
+  color: #ff8f00;
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -21px;
+}
+
+#pricing .table .symbol {
+  position: absolute;
+  color: #999;
+  font-size: 18px;
+}
+
+#pricing .table .value {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 50px;
+  margin-left: 14px;
+}
+
+#pricing .table .month {
+  color: #999;
+}
+
+#pricing .table li:nth-child(2) {
+  list-style: none;
+  margin-bottom: 48px;
+  margin-left: -21px;
+}
+
+#pricing .item {
+  color: #ff8f00;
+  margin-bottom: 27px;
+}
+
+#pricing #table-two .item {
+  color: #296ffa;
+}
+
+#pricing .item span {
+  color: #666;
+}
+
+#pricing #table-three .item {
+  color: #2acf8d;
+}
+
+#pricing #table-one a {
+  color: #ff8f00;
+  background: rgba(255, 143, 0, 0.1);
+}
+
+#pricing #table-two li:nth-child(1) {
+  color: #296ffa;
+}
+
+#pricing #table-three li:nth-child(1) {
+  color: #2acf8d;
+}
+
+#pricing #table-three a {
+  color: #29cf8d;
+  background: rgba(41, 207, 141, 0.1);
+}
+
+#pricing #table-two a {
+  color: #fff;
+  background: #296ffa;
+}
+
+#pricing .hidden {
+  color: rgb(177, 177, 177);
+}
+
+#pricing .table {
+  position: relative;
+}
+
+#pricing hr {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  border-color: #2423230d;
+}
