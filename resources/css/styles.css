@@ -189,6 +189,10 @@ span.year {
 
 /* Pricing Section */
 
+#pricing {
+  padding-top: 40px;
+}
+
 #pricing h2, #pricing h3 {
   text-align: center;
   margin: 0;
@@ -196,6 +200,7 @@ span.year {
 
 #pricing h3 {
   font-weight: bold;
+  padding-bottom: 40px;
 }
 
 .container-pricing {
@@ -245,6 +250,11 @@ span.year {
   list-style: none;
   margin-bottom: 48px;
   margin-left: -21px;
+}
+
+#pricing .table-button {
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 #pricing .item {
@@ -301,4 +311,82 @@ span.year {
   left: 0;
   width: 100%;
   border-color: #2423230d;
+}
+
+/* Features Section */
+
+#features {
+  padding-top: 90px;
+}
+
+#features h2 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00;
+  letter-spacing: 1px;;
+}
+
+#features h3 {
+  font-weight: bold;
+  font-size: 38px;
+  margin: 0;
+}
+
+#features p {
+  color: #666;
+  line-height: 30px;
+}
+
+#features .container {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  padding-bottom: 20px;
+}
+
+#features .headline {
+  width: 40%;
+  margin-right: 77px;
+}
+
+#features .image {
+  width: 49%;
+}
+
+#features .image img {
+  width: 100%;
+}
+
+.container-features {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #cccccc6b;
+  padding-top: 40px;
+}
+
+.features-1, .features-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 30%;
+  margin: auto;
+}
+
+.feature ul {
+  display: flex;
+  padding: 0;
+}
+
+.feature li {
+  list-style: none;
+}
+
+.feature li:nth-child(2) {
+  margin-left: 20px;
+  color: #666;
+  font-size: 14px;
 }
