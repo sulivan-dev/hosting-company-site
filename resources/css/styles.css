@@ -1,0 +1,474 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* Header */
+
+header {
+  background-image: url('/resources/img/ondas.png'), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 850px;
+}
+
+.menu {
+  background: #fff;
+  padding: 9px 20px;
+}
+
+.menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .main-container {
+  display: flex;
+  justify-content: center;
+  margin: 9vh 0;
+}
+
+header .title, header .image {
+  width: 40%;
+}
+
+header h1 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 52px;
+  color: #fff;
+  text-shadow: 1px 2px 50px #000;
+}
+
+header p {
+  color: #000;
+  line-height: 30px;
+}
+
+header img {
+  width: 100%;
+}
+
+.button {
+  background: #253547;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* Main */
+
+.domains {
+  display: flex;
+}
+
+.domains li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+span.point {
+  color: #1776FF;
+  font-size: 24px;
+}
+
+span.domain {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span.year {
+  color: #999;
+  font-size: 14px;
+}
+
+/* Services Section */
+
+#services {
+  padding-top: 120px;
+}
+
+#services .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#services .headline {
+  width: 49%;
+}
+
+#services .service {
+  width: 25%;
+  background-color: #fff;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  padding: 20px 30px;
+}
+
+#services h2, #pricing h2 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #FF8F00;
+  letter-spacing: 1px;
+}
+
+#services h3, #pricing h3 {
+  font-weight: bold;
+  font-size: 38px;
+}
+
+#services .button {
+  background: #2970fa;
+  padding: 15px 38px;
+  letter-spacing: 1px;
+}
+
+.service h4 {
+  font-size: 23px;
+  font-weight: normal;
+  font-family: 'Rubik';
+}
+
+.service p {
+  color: #787878;
+  font-style: 15px;
+  line-height: 32px;
+}
+
+.service a {
+  color: #2370fa;
+  text-decoration: none;
+  font-family: 'Rubik';
+  letter-spacing: 1px;
+  font-style: 13px;
+}
+
+.container-services {
+  margin-top: 60px;
+}
+
+.container-services #two {
+  position: relative;
+  top: -250px;
+}
+
+#services #one {
+  margin-left: 152px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding-top: 40px;
+}
+
+#pricing h2, #pricing h3 {
+  text-align: center;
+  margin: 0;
+}
+
+#pricing h3 {
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.container-pricing {
+  display: flex;
+  justify-content: space-around;
+}
+
+#pricing .table {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px 59px;
+}
+
+#pricing ul {
+  padding: 0px;
+}
+
+#pricing .table li:nth-child(1) {
+  font-family: 'Rubik';
+  color: #ff8f00;
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -21px;
+}
+
+#pricing .table .symbol {
+  position: absolute;
+  color: #999;
+  font-size: 18px;
+}
+
+#pricing .table .value {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 50px;
+  margin-left: 14px;
+}
+
+#pricing .table .month {
+  color: #999;
+}
+
+#pricing .table li:nth-child(2) {
+  list-style: none;
+  margin-bottom: 48px;
+  margin-left: -21px;
+}
+
+#pricing .table-button {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#pricing .item {
+  color: #ff8f00;
+  margin-bottom: 27px;
+}
+
+#pricing #table-two .item {
+  color: #296ffa;
+}
+
+#pricing .item span {
+  color: #666;
+}
+
+#pricing #table-three .item {
+  color: #2acf8d;
+}
+
+#pricing #table-one a {
+  color: #ff8f00;
+  background: rgba(255, 143, 0, 0.1);
+}
+
+#pricing #table-two li:nth-child(1) {
+  color: #296ffa;
+}
+
+#pricing #table-three li:nth-child(1) {
+  color: #2acf8d;
+}
+
+#pricing #table-three a {
+  color: #29cf8d;
+  background: rgba(41, 207, 141, 0.1);
+}
+
+#pricing #table-two a {
+  color: #fff;
+  background: #296ffa;
+}
+
+#pricing .hidden {
+  color: rgb(177, 177, 177);
+}
+
+#pricing .table {
+  position: relative;
+}
+
+#pricing hr {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  border-color: #2423230d;
+}
+
+/* Features Section */
+
+#features {
+  padding-top: 90px;
+}
+
+#features h2 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00;
+  letter-spacing: 1px;;
+}
+
+#features h3 {
+  font-weight: bold;
+  font-size: 38px;
+  margin: 0;
+}
+
+#features p {
+  color: #666;
+  line-height: 30px;
+}
+
+#features .container {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  padding-bottom: 20px;
+}
+
+#features .headline {
+  width: 40%;
+  margin-right: 77px;
+}
+
+#features .image {
+  width: 49%;
+}
+
+#features .image img {
+  width: 100%;
+}
+
+.container-features {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #cccccc6b;
+  padding-top: 40px;
+}
+
+.features-1, .features-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 30%;
+  margin: auto;
+}
+
+.feature ul {
+  display: flex;
+  padding: 0;
+}
+
+.feature li {
+  list-style: none;
+}
+
+.feature li:nth-child(2) {
+  margin-left: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* File Management Section */
+
+#file {
+  padding-top: 90px;
+}
+
+#file .container {
+  display: flex;
+  justify-content: center;
+}
+
+#file .icons .icon {
+  margin-right: 15px;
+}
+
+#file .icons h4,
+#file .icons p {
+  margin: 0;
+}
+
+#file .icons h4 {
+  font-weight: bold;
+}
+
+#file .icons p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+#file .item {
+  display: flex;
+}
+
+#file .headline {
+  width: 42%;
+  margin-right: 46px;
+}
+
+#file .image {
+  width: 40%
+}
+
+#file .image img {
+  width: 100%;
+}
+
+#file .image .button {
+  background: #2970fa;
+  padding: 15px 40px;
+  letter-spacing: 1px;
+  font-family: 'Rubik';
+}
+
+#file h3 {
+  font-size: 34px;
+  width: 78%;
+  margin: 0;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#file h2 {
+  margin: 0;
+  font-family: 'Rubik';
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00;
+  letter-spacing: 1px;;
+}
+
+#file .icons {
+  margin-top: 30px;
+}
+
+#file .icon {
+  margin-right: 15px;
+}
